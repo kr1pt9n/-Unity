@@ -1,0 +1,20 @@
+// github.com/kr1pt9n
+ Создайте скрипт в Unity с названием "LoadSceneUnityDG"
+ Скопируйте и вставьте данный скрипт в ранее созданный скрипт!
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class LoadSceneUnityDG : MonoBehaviour
+{
+	public void LoadSceneUnityDG(Имя сцены)
+	{
+		SceneManager.LoadScene (имя сцены); //Загрузка сцены
+	}
+	public void ExitSceneDG()
+	{
+		Application.Quit (); //Выход
+	}
+}
